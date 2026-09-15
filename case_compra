@@ -6,9 +6,9 @@ let valorCompra = parseFloat(
 
 let Pagamento = prompt(
     "Escolha a forma de pagamento:\n" +
-    "Dinheiro/PIX\n" +
-    "Débito\n" +
-    "Crédito"
+    "dinheiro/PIX\n" +
+    "débito\n" +
+    "drédito"
 );
 
 let valorFinal;
