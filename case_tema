@@ -1,0 +1,44 @@
+case tema 
+
+let opcao = prompt(
+    "Escolha uma área de tecnologia:\n" +
+    "1 - Desenvolvimento Web\n" +
+    "2 - Banco de Dados\n" +
+    "3 - Segurança da Informação\n" +
+    "4 - Desenvolvimento de Jogos\n" +
+    "5 - Inteligência Artificial\n" +
+    "6 - Redes de Computadores"
+);
+
+let mensagem;
+
+switch (opcao) {
+    case "1":
+        mensagem = "Desenvolvimento Web: continue praticando HTML, CSS e JavaScript.";
+        break;
+
+    case "2":
+        mensagem = "Banco de Dados: continue estudando organização e manipulação de dados.";
+        break;
+
+    case "3":
+        mensagem = "Segurança da Informação: explore formas de proteger sistemas e informações.";
+        break;
+
+    case "4":
+        mensagem = "Desenvolvimento de Jogos: pratique programação e criação de jogos.";
+        break;
+
+    case "5":
+        mensagem = "Inteligência Artificial: continue explorando programação e novas tecnologias.";
+        break;
+
+    case "6":
+        mensagem = "Redes de Computadores: aprenda mais sobre comunicação entre computadores.";
+        break;
+
+    default:
+        mensagem = "Opção inválida!";
+}
+
+document.write(mensagem);
