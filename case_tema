@@ -1,13 +1,11 @@
-case tema 
-
 let opcao = prompt(
     "Escolha uma área de tecnologia:\n" +
-    "1 - Desenvolvimento Web\n" +
-    "2 - Banco de Dados\n" +
-    "3 - Segurança da Informação\n" +
-    "4 - Desenvolvimento de Jogos\n" +
-    "5 - Inteligência Artificial\n" +
-    "6 - Redes de Computadores"
+    "desenvolvimento web\n" +
+    "banco de dados\n" +
+    "segurança da informação\n" +
+    "desenvolvimento de jogos\n" +
+    "inteligência artificial\n" +
+    "redes de computadores"
 );
 
 let mensagem;
@@ -38,7 +36,7 @@ switch (opcao) {
         break;
 
     default:
-        mensagem = "Opção inválida!";
+        mensagem = "Opção inválida, tente novamente";
 }
 
 document.write(mensagem);
