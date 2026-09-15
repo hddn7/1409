@@ -1,0 +1,37 @@
+let valorCompra = parseFloat(
+    prompt("Digite o valor total da compra:")
+);
+
+let formaPagamento = prompt(
+    "Escolha a forma de pagamento:\n" +
+    "1 - Dinheiro/PIX\n" +
+    "2 - Débito\n" +
+    "3 - Crédito"
+);
+
+let valorFinal;
+
+switch (formaPagamento) {
+    case "1":
+        valorFinal = valorCompra - (valorCompra * 0.10);
+        break;
+
+    case "2":
+        valorFinal = valorCompra - (valorCompra * 0.05);
+        break;
+
+    case "3":
+        valorFinal = valorCompra;
+        break;
+
+    default:
+        valorFinal = null;
+}
+
+if (valorFinal != null) {
+    document.write(
+        "Valor final da compra: R$ " + valorFinal.toFixed(2)
+    );
+} else {
+    document.write("Forma de pagamento inválida!");
+}
