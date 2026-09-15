@@ -1,4 +1,3 @@
-
 let opcao = prompt(
     "Escolha seu gênero musical preferido:\n" +
     "rock\n" +
