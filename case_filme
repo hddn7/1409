@@ -1,12 +1,12 @@
 let valorCompra = parseFloat(
-    prompt("Digite o valor total da compra:")
+    prompt("digite o valor total da compra:")
 );
 
 let formaPagamento = prompt(
     "Escolha a forma de pagamento:\n" +
-    "1 - Dinheiro/PIX\n" +
-    "2 - Débito\n" +
-    "3 - Crédito"
+    "dinheiro/PIX\n" +
+    "débito\n" +
+    "crédito"
 );
 
 let valorFinal;
