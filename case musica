@@ -1,0 +1,47 @@
+
+let opcao = prompt(
+    "Escolha seu gênero musical preferido:\n" +
+    "1 - Rock\n" +
+    "2 - Pop\n" +
+    "3 - Hip Hop\n" +
+    "4 - Eletrônica\n" +
+    "5 - Jazz\n" +
+    "6 - Clássica"
+);
+
+let genero;
+
+switch (opcao) {
+    case "1":
+        genero = "Rock";
+        break;
+
+    case "2":
+        genero = "Pop";
+        break;
+
+    case "3":
+        genero = "Hip Hop";
+        break;
+
+    case "4":
+        genero = "Eletrônica";
+        break;
+
+    case "5":
+        genero = "Jazz";
+        break;
+
+    case "6":
+        genero = "Clássica";
+        break;
+
+    default:
+        genero = "";
+}
+
+if (genero != "") {
+    document.write("Seu gênero musical preferido é: " + genero);
+} else {
+    document.write("Opção inválida!");
+}
