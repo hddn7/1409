@@ -1,12 +1,12 @@
 
 let opcao = prompt(
     "Escolha seu gênero musical preferido:\n" +
-    "1 - Rock\n" +
-    "2 - Pop\n" +
-    "3 - Hip Hop\n" +
-    "4 - Eletrônica\n" +
-    "5 - Jazz\n" +
-    "6 - Clássica"
+    "rock\n" +
+    "pop\n" +
+    "hip hop\n" +
+    "eletrônica\n" +
+    "jazz\n" +
+    "clássica"
 );
 
 let genero;
