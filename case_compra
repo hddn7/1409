@@ -1,5 +1,3 @@
-ase compra
-
 let valorCompra = parseFloat(
     prompt("digite o valor total da compra:")
 );
